@@ -260,3 +260,87 @@ header {
     margin-top: 10px;
 }
 /* Header section end */
+
+/*section-6*/
+
+
+.fastest{
+    max-width: 1296px;
+    margin: auto;
+  
+  
+  }
+  #box {
+      width: 100%;
+      height: 720px;
+      display: flex;
+      justify-items: space-between;
+    }
+    #box > div {
+      height: 472px;
+      width: 362px;
+    }
+    #box > div:nth-of-type(1) {
+      margin: 120px;
+    }
+    #box > div:nth-of-type(2) {
+      margin: 120px;
+      margin-left: 80px;
+    }
+    #box > div > h1 {
+      width: 492px;
+      height: 230px;
+      font-size: 3rem;
+      font-family: "__grotesk500_e28c81", "__grotesk500_Fallback_e28c81";
+      font-weight: 500;
+      line-height: 120%;
+      margin-top: 95px;
+    }
+    #box > div > #p1 {
+      width: 550px;
+      height: 90px;
+      font-family: "__soehne_42618b", "__soehne_Fallback_42618b";
+      font-weight: 410;
+      line-height: 130%;
+      letter-spacing: 0.01em;
+      margin-top: -60px;
+      font-size: 20px;
+    }
+  
+    .checked {
+      color: red;
+      font-size: 20px;
+    }
+    #star {
+      margin-top: -35px;
+    }
+    #star > p {
+      margin-top: 5px;
+    }
+    .cm {
+      border: 10px solid black;
+    }
+    #marquee {
+      height: 150px;
+      width: 80%;
+      margin-left: 150px;
+      margin-right: 20px;
+      transition:1s infinite linear;
+      background: linear-gradient(to right, rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 1));
+      opacity: 1;
+  
+    }
+    #marquee-startbox{
+      height: 50px;
+      width: 50px;
+      opacity: 0.5;
+  
+    }
+    #marquee-endbox{
+      height: 50px;
+      width: 50px;
+      opacity: 0.4;
+  
+    }
+
+    /*section-6 close*/
