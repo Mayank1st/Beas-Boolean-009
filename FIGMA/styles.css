@@ -1,11 +1,11 @@
-section {
+.section-7 {
   max-width: 1320px;
   margin: auto;
 }
-section .container {
+.section-7 .container {
   max-width: 880px;
 }
-section .container .cr {
+.section-7 .container .cr {
   font-family: Inter;
   font-size: 29.53px;
   font-weight: 700;
@@ -13,7 +13,7 @@ section .container .cr {
   text-align: left;
   color: #05073C;
 }
-section .container .table {
+.section-7 .container .table {
   margin-bottom: 30px;
   max-width: 850px;
   height: 326px;
@@ -24,7 +24,7 @@ section .container .table {
   grid-auto-flow: dense;
   justify-content: center;
 }
-section .container .table .child {
+.section-7 .container .table .child {
   height: 77px;
   padding-left: 90px;
   padding-right: 24px;
@@ -33,10 +33,10 @@ section .container .table .child {
   align-items: center;
   justify-content: space-between;
 }
-section .container .table .child .tname {
+.section-7 .container .table .child .tname {
   background: none;
 }
-section .container .table .child .tname h4 {
+.section-7 .container .table .child .tname h4 {
   font-family: Inter;
   font-size: 15.5px;
   font-weight: 500;
@@ -46,7 +46,7 @@ section .container .table .child .tname h4 {
   padding: 0;
   color: #05073C;
 }
-section .container .table .child .tname p {
+.section-7 .container .table .child .tname p {
   font-family: Inter;
   font-size: 14.65px;
   font-weight: 400;
@@ -56,7 +56,7 @@ section .container .table .child .tname p {
   padding: 0;
   color: #05073C;
 }
-section .container .table .child .tname h3 {
+.section-7 .container .table .child .tname h3 {
   font-family: inter;
   font-size: 15.88px;
   font-weight: 500;
@@ -64,28 +64,39 @@ section .container .table .child .tname h3 {
   text-align: left;
   color: #05073C;
 }
-section .container .table div:nth-of-type(1) {
+.section-7 .container .table div:nth-of-type(1) {
   grid-column-start: 1;
   grid-column-end: 3;
   background: rgba(235, 102, 43, 0.1019607843);
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
-section .container .table div:nth-of-type(6) {
+.section-7 .container .table div:nth-of-type(6) {
   border-bottom-left-radius: 10px;
 }
-section .container .table div:nth-of-type(7) {
+.section-7 .container .table div:nth-of-type(7) {
   border-bottom-right-radius: 10px;
 }
-section .container .abox {
+.section-7 .container .abox {
   max-width: 850px;
 }
-section .container .abox #ali {
+.section-7 .container .abox .ali {
   display: flex;
   align-items: center;
   gap: 20px;
+  position: relative;
 }
-section .container .abox #ali h4 {
+.section-7 .container .abox .ali h5 {
+  position: absolute;
+  right: 15px;
+  font-family: Inter;
+  font-size: 13.78px;
+  font-weight: 400;
+  line-height: 26.25px;
+  text-align: left;
+  color: #717171;
+}
+.section-7 .container .abox .ali h4 {
   font-family: Inter;
   font-size: 15.38px;
   font-weight: 500;
@@ -93,7 +104,7 @@ section .container .abox #ali h4 {
   text-align: left;
   color: #05073C;
 }
-section .container .abox h3 {
+.section-7 .container .abox h3 {
   font-family: Inter;
   font-size: 15.63px;
   font-weight: 500;
@@ -102,9 +113,26 @@ section .container .abox h3 {
   color: #05073C;
   margin-left: 95px;
 }
-section .container .abox p {
+.section-7 .container .abox p {
   font-family: Inter;
   font-size: 14.65px;
+  font-weight: 400;
+  line-height: 28.13px;
+  text-align: left;
+  color: #05073C;
+}
+.section-7 .container .abox .fantastic {
+  display: flex;
+  gap: 20px;
+}
+.section-7 .container .abox .forP {
+  margin-left: 40px;
+  display: flex;
+  gap: 55px;
+}
+.section-7 .container .abox .forP > p {
+  font-family: Inter;
+  font-size: 14.53px;
   font-weight: 400;
   line-height: 28.13px;
   text-align: left;

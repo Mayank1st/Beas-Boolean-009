@@ -1,6 +1,6 @@
 
 //section-7 start
-section{
+.section-7{
     max-width: 1320px;
     margin: auto;
 
@@ -89,11 +89,23 @@ section{
 
         .abox{
             max-width: 850px;
-            #ali{
+            .ali{
                 display: flex;
                 align-items: center;
                 gap: 20px;
+                position: relative;
 
+
+                h5{
+                    position: absolute;
+                    right: 15px;
+                    font-family: Inter;
+                    font-size: 13.78px;
+                    font-weight: 400;
+                    line-height: 26.25px;
+                    text-align: left;
+                    color: #717171;
+                }
                 h4{
                     font-family: Inter;
                     font-size: 15.38px;
@@ -117,6 +129,24 @@ section{
             p{
                 font-family: Inter;
                 font-size: 14.65px;
+                font-weight: 400;
+                line-height: 28.13px;
+                text-align: left;
+                color: #05073C;
+            }
+            .fantastic{
+                display: flex;
+                gap: 20px;
+            }
+
+            .forP{
+                margin-left: 40px;
+                display: flex;
+                gap: 55px;
+            }
+            .forP>p{
+                font-family: Inter;
+                font-size: 14.53px;
                 font-weight: 400;
                 line-height: 28.13px;
                 text-align: left;
