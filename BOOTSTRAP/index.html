@@ -1,18 +1,383 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CW Project</title>
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <!-- Mayank Section -->
-    <header>
-    </header>
+    <!-- Header Section starts -->
+    <header id="section-1" class="container-fluid" style="padding:5px;">
+      <nav class="container navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+              <img class="navbar-brand" src="./assets/Logo-imp-final-draft.png" height="60" width="130" alt="">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                  aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                              aria-expanded="false">
+                              Platform
+                          </a>
+                          <ul class="dropdown-menu">
+                              <div class="platform-dropdown-div"
+                                  style="width:1300px;border: solid black;height: 20vh;">
 
-    <!-- <section id="section-3"></section> -->
+                              </div>
+                          </ul>
+                      </li>
+
+                      <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                              aria-expanded="false">
+                              Teams
+                          </a>
+                          <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li>
+                                  <hr class="dropdown-divider">
+                              </li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                          </ul>
+                      </li>
+
+                      <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                              aria-expanded="false">
+                              Resources
+                          </a>
+                          <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li>
+                                  <hr class="dropdown-divider">
+                              </li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                          </ul>
+                      </li>
+
+                      <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#">Pricing</a>
+                      </li>
+
+
+                  </ul>
+                  <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                          <a class="nav-link active me-4" aria-current="page" href="#">Get a demo</a>
+                      </li>
+                  </ul>
+                  <form class="navbar-button d-flex" role="search">
+                      <button class="btn btn-outline-light me-3" type="submit">Log in</button>
+                      <button class="btn btn-outline-success" type="submit">Sign up for free</button>
+                  </form>
+              </div>
+          </div>
+      </nav>
+  </header>
+
+  <section id="section-2">
+      <div class="section-2-flex">
+          <div>
+              <h1>Find and close your <br>
+                  next deal</h1>
+              <h3>
+                  Power your go-to-market with one platform. Fueled by the most accurate data on 275M contacts and 73M
+                  companies.
+              </h3>
+              <form class="section-2-button  d-flex" role="search">
+                  <button class="btn btn-outline-success me-3" type="submit">Sign up for free</button>
+                  <button class="btn btn-outline-light" type="submit">Get a demo</button>
+              </form>
+              <p> <i class="fa-solid fa-star" style="color: #030303; height: 10px; width: 10px;"></i>&nbsp;&nbsp;
+                  <i class="fa-solid fa-star" style="color: #030303; height: 10px; width: 10px;"></i>&nbsp;&nbsp;
+                  <i class="fa-solid fa-star" style="color: #030303; height: 10px; width: 10px;"></i>&nbsp;&nbsp;
+                  <i class="fa-solid fa-star" style="color: #030303; height: 10px; width: 10px;"></i>&nbsp;&nbsp;
+                  <i class="fa-solid fa-star" style="color: #030303; height: 10px; width: 10px;"></i>&nbsp;&nbsp;
+                  <span style="font-size: smaller;"><b>4.8</b>/5 based on 6,898 reviews | GDPR Compliant</span>
+              </p>
+          </div>
+          <div class="section-2-video">
+              <!-- <video src="./Header Video.mp4" class="object-fit-contain" autoplay></video> -->
+          </div>
+      </div>
+  </section>
+  <section id="section-2-stripe">
+      <div class="stripe">
+          <div>Millions of sellers at over 500,000 companies beat their number with Apollo</div>
+          <div class="stripe-bottom">
+              <div><img src="./assets/section-2-icon1.png" alt=""></div>
+              <div><img src="./assets/section-2-icon2.png" alt=""></div>
+              <div><img src="./assets/section-2-icon3.png" alt=""></div>
+              <div><img src="./assets/section-2-icon4.png" alt=""></div>
+              <div><img src="./assets/section-2-icon5.png" alt=""></div>
+              <div><img src="./assets/section-2-icon6.png" alt=""></div>
+          </div>
+      </div>
+  </section>
+  <!-- Header section ends -->
+
+    <section id="section-3" class="container-fluid">
+      <div class="container">
+        <div>
+          <h3>Easily explore the most accurate B2B data.</h3>
+          <p>
+            We invented a different way to deliver data and it&apos;s changing
+            the game. Our 2 million user Living Data Network ensures
+            unparalleled freshness and depth.
+          </p>
+        </div>
+        <div>
+          <div>
+            <a href="#">
+              <button type="button" class="b1">
+                <span>Learn more</span>
+              </button>
+            </a>
+          </div>
+        </div>
+        <div>
+          <img
+            src="https://netlify.apollo.io/_next/image?url=https%3A%2F%2Fnetlify.apollo.io%2F_next%2Fstatic%2Fmedia%2Fpowered-by-desktop-image.9d2e1874.png&w=1920&q=75"
+            class="img-fluid"
+            alt="image?url"
+          />
+        </div>
+      </div>
+    </section>
+    <!---------------------------------section-6------------------------------------------------------------------------->
+    <div id="section6">
+        <div class="fastest">
+         <div id="box">
+           <div>
+             <h1>
+               The fastest growing and most loved sales technology on the planet
+             </h1>
+             <p id="p1">
+               Apollo is a leader in Sales Intelligence &amp; Sales Engagement on
+               G2, the world &#39;s largest and most trusted software marketplace.
+             </p>
+             <div id="star">
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               <p><b>4.8</b>/5 based on 6,898 reviews</p>
+             </div>
+           </div>
+           <div>
+             <img
+               src="https://netlify.apollo.io/_next/image?url=https%3A%2F%2Fnetlify.apollo.io%2F_next%2Fstatic%2Fmedia%2Fblack-text.4fb7aa84.png&w=640&q=75"
+             />
+           </div>
+         </div>
+   
+         <!-------------------------------------------------marquee------------------------------------------------------------------->
+         <div id="marquee">
+           <marquee
+             style="
+               play: running;
+               direction: normal;
+               duration: 45.6s;
+               delay: 0s;
+               iteration-count: infinite;
+               min-width: 100%;
+             "
+           >
+             <span id="marquee-startbox"></span>
+             <img
+               style="width: 152px; height: 150px"
+               src="https://netlify.apollo.io/_next/static/media/8.79c278d3.svg"
+             />
+             <img
+               style="width: 152px; height: 150px"
+               src="https://netlify.apollo.io/_next/static/media/1.673efcb5.svg"
+             />
+             <img
+               style="width: 152px; height: 150px"
+               src="https://netlify.apollo.io/_next/static/media/10.4e0315cc.svg"
+             />
+             <img
+               style="width: 152px; height: 150px"
+               src="https://netlify.apollo.io/_next/static/media/4.b5d0c60a.svg"
+             />
+             <img
+               style="width: 152px; height: 150px"
+               src="https://netlify.apollo.io/_next/static/media/9.1374d5c8.svg"
+             />
+             <img
+               style="width: 152px; height: 150px"
+               src="https://netlify.apollo.io/_next/static/media/15.da1f8ca1.svg"
+             />
+             <img
+               style="width: 152px; height: 150px"
+               src="https://netlify.apollo.io/_next/static/media/2.885d2092.svg"
+             />
+             <img
+               style="width: 152px; height: 150px"
+               src="https://netlify.apollo.io/_next/static/media/6.342d4e7a.svg"
+             />
+             <img
+               style="width: 152px; height: 150px"
+               src="https://netlify.apollo.io/_next/static/media/11.51f58998.svg"
+             />
+             <img
+               style="width: 152px; height: 150px"
+               src="https://netlify.apollo.io/_next/static/media/14.c38747e9.svg"
+             />
+             <img
+               style="width: 152px; height: 150px"
+               src="https://netlify.apollo.io/_next/static/media/3.414e0a49.svg"
+             />
+             <img
+               style="width: 152px; height: 150px"
+               src="https://netlify.apollo.io/_next/static/media/8.79c278d3.svg"
+             />
+             <img
+               style="width: 152px; height: 150px"
+               src="https://netlify.apollo.io/_next/static/media/1.673efcb5.svg"
+             />
+             <img
+               style="width: 152px; height: 150px"
+               src="https://netlify.apollo.io/_next/static/media/10.4e0315cc.svg"
+             />
+             <img
+               style="width: 152px; height: 150px"
+               src="https://netlify.apollo.io/_next/static/media/4.b5d0c60a.svg"
+             />
+             <img
+               style="width: 152px; height: 150px"
+               src="https://netlify.apollo.io/_next/static/media/9.1374d5c8.svg"
+             />
+             <img
+               style="width: 152px; height: 150px"
+               src="https://netlify.apollo.io/_next/static/media/15.da1f8ca1.svg"
+             />
+             <img
+               style="width: 152px; height: 150px"
+               src="https://netlify.apollo.io/_next/static/media/2.885d2092.svg"
+             />
+             <img
+               style="width: 152px; height: 150px"
+               src="https://netlify.apollo.io/_next/static/media/6.342d4e7a.svg"
+             />
+             <img
+               style="width: 152px; height: 150px"
+               src="https://netlify.apollo.io/_next/static/media/11.51f58998.svg"
+             />
+             <img
+               style="width: 152px; height: 150px"
+               src="https://netlify.apollo.io/_next/static/media/14.c38747e9.svg"
+             />
+             <img
+               style="width: 152px; height: 150px"
+               src="https://netlify.apollo.io/_next/static/media/3.414e0a49.svg"
+             />
+             <img
+               style="width: 152px; height: 150px"
+               src="https://netlify.apollo.io/_next/static/media/8.79c278d3.svg"
+             />
+             <img
+               style="width: 152px; height: 150px"
+               src="https://netlify.apollo.io/_next/static/media/1.673efcb5.svg"
+             />
+             <img
+               style="width: 152px; height: 150px"
+               src="https://netlify.apollo.io/_next/static/media/10.4e0315cc.svg"
+             />
+             <img
+               style="width: 152px; height: 150px"
+               src="https://netlify.apollo.io/_next/static/media/4.b5d0c60a.svg"
+             />
+             <img
+               style="width: 152px; height: 150px"
+               src="https://netlify.apollo.io/_next/static/media/9.1374d5c8.svg"
+             />
+             <img
+               style="width: 152px; height: 150px"
+               src="https://netlify.apollo.io/_next/static/media/15.da1f8ca1.svg"
+             />
+             <img
+               style="width: 152px; height: 150px"
+               src="https://netlify.apollo.io/_next/static/media/2.885d2092.svg"
+             />
+             <img
+               style="width: 152px; height: 150px"
+               src="https://netlify.apollo.io/_next/static/media/6.342d4e7a.svg"
+             />
+             <img
+               style="width: 152px; height: 150px"
+               src="https://netlify.apollo.io/_next/static/media/11.51f58998.svg"
+             />
+             <img
+               style="width: 152px; height: 150px"
+               src="https://netlify.apollo.io/_next/static/media/14.c38747e9.svg"
+             />
+             <img
+               style="width: 152px; height: 150px"
+               src="https://netlify.apollo.io/_next/static/media/3.414e0a49.svg"
+             />
+             <img
+               style="width: 152px; height: 150px"
+               src="https://netlify.apollo.io/_next/static/media/8.79c278d3.svg"
+             />
+             <img
+               style="width: 152px; height: 150px"
+               src="https://netlify.apollo.io/_next/static/media/1.673efcb5.svg"
+             />
+             <img
+               style="width: 152px; height: 150px"
+               src="https://netlify.apollo.io/_next/static/media/10.4e0315cc.svg"
+             />
+             <img
+               style="width: 152px; height: 150px"
+               src="https://netlify.apollo.io/_next/static/media/4.b5d0c60a.svg"
+             />
+             <img
+               style="width: 152px; height: 150px"
+               src="https://netlify.apollo.io/_next/static/media/9.1374d5c8.svg"
+             />
+             <img
+               style="width: 152px; height: 150px"
+               src="https://netlify.apollo.io/_next/static/media/15.da1f8ca1.svg"
+             />
+             <img
+               style="width: 152px; height: 150px"
+               src="https://netlify.apollo.io/_next/static/media/2.885d2092.svg"
+             />
+             <img
+               style="width: 152px; height: 150px"
+               src="https://netlify.apollo.io/_next/static/media/6.342d4e7a.svg"
+             />
+             <img
+               style="width: 152px; height: 150px"
+               src="https://netlify.apollo.io/_next/static/media/11.51f58998.svg"
+             />
+             <img
+               style="width: 152px; height: 150px"
+               src="https://netlify.apollo.io/_next/static/media/14.c38747e9.svg"
+             />
+             <img
+               style="width: 152px; height: 150px"
+               src="https://netlify.apollo.io/_next/static/media/3.414e0a49.svg"
+             />
+             <span id="marquee-endbox"></span>
+           </marquee>
+         </div>
+        </div>
+        <!-----------------------------------section-6 close------------------------------------------------------------------------>
+  <script src="https://kit.fontawesome.com/a89a1bd747.js" crossorigin="anonymous"></script>
 </body>
 </html>
