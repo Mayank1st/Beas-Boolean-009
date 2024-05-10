@@ -176,7 +176,7 @@ nav {
 
 .section-2-grid > div:nth-of-type(1) {
   grid-area: a;
-  background-image: url("./section-2-grid-img1.png");
+  background-image: url("./assets/section-2-grid-img1.png");
   background-size: cover;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
@@ -184,20 +184,20 @@ nav {
 
 .section-2-grid > div:nth-of-type(2) {
   grid-area: b;
-  background-image: url("./section-2-grid-img2.png");
+  background-image: url("./assets/section-2-grid-img2.png");
   background-size: cover;
   border-top-right-radius: 10px;
 }
 
 .section-2-grid > div:nth-of-type(3) {
   grid-area: c;
-  background-image: url(./section-2-grid-img3.png);
+  background-image: url("./assets/section-2-grid-img3.png");
   background-size: cover;
 }
 
 .section-2-grid > div:nth-of-type(4) {
   grid-area: d;
-  background-image: url(./section-2-grid-img4.png);
+  background-image: url("./assets/section-2-grid-img4.png");
   background-size: cover;
   border-bottom-right-radius: 10px;
   /* display: flex;
