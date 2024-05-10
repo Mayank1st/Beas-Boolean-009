@@ -109,7 +109,8 @@ nav {
 }
 
 .section-2-main-content-heading > h1 {
-  font-family: "Inter";
+  font-family: "
+    ";
   font-size: 39.69px;
   font-weight: 700;
   line-height: 56px;
@@ -210,7 +211,7 @@ nav {
     padding: 13px 20.8px 13px 21px;
     border-radius: 200px;
     background-color: #05073C;
-    font-family: Inter;
+    font-family: "Inter";
     font-size: 14.65px;
     font-weight: 500;
     color: #FFFFFF;
@@ -218,3 +219,146 @@ nav {
     margin-bottom: 20px;
     border: none;
 } *//*# sourceMappingURL=styles.css.map */
+
+
+.section-7 {
+  max-width: 1320px;
+  margin: auto;
+}
+.section-7 .container {
+  max-width: 880px;
+}
+.section-7 .container .cr {
+  font-family: "Inter";
+  font-size: 29.53px;
+  font-weight: 700;
+  line-height: 45px;
+  text-align: left;
+  color: #05073C;
+}
+.section-7 .container .table {
+  margin-bottom: 30px;
+  max-width: 850px;
+  height: 326px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 4px;
+  grid-auto-flow: dense;
+  justify-content: center;
+}
+.section-7 .container .table .child {
+  height: 77px;
+  padding-left: 90px;
+  padding-right: 24px;
+  background: rgba(235, 102, 43, 0.0392156863);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.section-7 .container .table .child .tname {
+  background: none;
+}
+.section-7 .container .table .child .tname h4 {
+  font-family: "Inter";
+  font-size: 15.5px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  color: #05073C;
+}
+.section-7 .container .table .child .tname p {
+  font-family: "Inter";
+  font-size: 14.65px;
+  font-weight: 400;
+  line-height: 22.5px;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  color: #05073C;
+}
+.section-7 .container .table .child .tname h3 {
+  font-family: "Inter";
+  font-size: 15.88px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  color: #05073C;
+}
+.section-7 .container .table div:nth-of-type(1) {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background: rgba(235, 102, 43, 0.1019607843);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.section-7 .container .table div:nth-of-type(6) {
+  border-bottom-left-radius: 10px;
+}
+.section-7 .container .table div:nth-of-type(7) {
+  border-bottom-right-radius: 10px;
+}
+.section-7 .container .abox {
+  max-width: 850px;
+}
+.section-7 .container .abox .ali {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+}
+.section-7 .container .abox .ali h5 {
+  position: absolute;
+  right: 15px;
+  font-family: "Inter";
+  font-size: 13.78px;
+  font-weight: 400;
+  line-height: 26.25px;
+  text-align: left;
+  color: #717171;
+}
+.section-7 .container .abox .ali h4 {
+  font-family: "Inter";
+  font-size: 15.38px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  color: #05073C;
+}
+.section-7 .container .abox h3 {
+  font-family: "Inter";
+  font-size: 15.63px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  color: #05073C;
+  margin-left: 95px;
+}
+.section-7 .container .abox p {
+  font-family: "Inter";
+  font-size: 14.65px;
+  font-weight: 400;
+  line-height: 28.13px;
+  text-align: left;
+  color: #05073C;
+}
+.section-7 .container .abox .fantastic {
+  display: flex;
+  gap: 20px;
+}
+.section-7 .container .abox .forP {
+  margin-left: 40px;
+  display: flex;
+  gap: 55px;
+}
+.section-7 .container .abox .forP > p {
+  font-family: "Inter";
+  font-size: 14.53px;
+  font-weight: 400;
+  line-height: 28.13px;
+  text-align: left;
+  color: #05073C;
+}/*# sourceMappingURL=styles.css.map */
+
