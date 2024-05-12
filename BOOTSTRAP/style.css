@@ -74,27 +74,169 @@
 #section-3>.container>div:nth-of-type(3)>img{
    max-width: 100%;
 }
+
+
+/* section-4 starts */
+
+#section-4{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    
+}
+#section-4>.container{
+    max-width: 1296px;
+    margin: 0px 112px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+#section-4>.container>.container-lg{
+    padding: 80px 0px;
+
+}
+#section-4>.container>.container-lg>h3{
+    Color: rgba(0, 0, 0, 0.87);
+    font-size: 48px;
+    letter-spacing: normal;
+    line-height: 57.6px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+#section-4>.container>.container-lg>div:nth-of-type(1){
+    /* padding-top: 24px; */
+    display: flex;
+    gap: 10px;
+
+}
+#section-4>.container>.container-lg>div:nth-of-type(1)>button{
+    background-color: #ffffff;
+    vertical-align: middle;
+    letter-spacing: 0.02857em;
+    line-height: 1.75;
+    font-weight: 500;
+    font-size: 16px;
+    border: 2px solid rgba(128, 128, 128, 0.372);
+    padding: 10px 18px;
+    border-radius: 8px;
+    transition: 0.2s ease-in-out;
+    margin-top: 24px;
+}
+
+#section-4>.container>.container-lg>div:nth-of-type(1)>.pri{
+    padding: 10px 18px;
+    background-color: #fccf40;
+    vertical-align: middle;
+    letter-spacing: 0.02857em;
+    line-height: 1.75;
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    transition: 0.2s ease-in-out;
+    margin-top: 24px;
+}
+#section-4>.container>.container-lg>div:nth-of-type(1)>.pri:hover{
+    background-color: #fcd04089;
+}
+#section-4>.container>.container-lg>div:nth-of-type(1)>.btns:hover{
+    background-color: rgba(128, 128, 128, 0.073);
+}
+#section-4>.container>.container-lg>div:nth-of-type(2){
+    margin-top: 54px;
+    display: flex;
+    gap: 10px;
+}
+.v-list-0>.h4{
+    Color: rgba(0, 0, 0, 0.87);
+    font-size: 36px;
+    margin-bottom: 24px;
+}
+.v-list>div{
+    display: flex;
+}
+
+.v-list>div span{
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.16884px;
+    line-height: 27px;
+}
+.v-btns>a>button{
+    border: none;
+    background-color: black;
+    color: white;
+    vertical-align: middle;
+    letter-spacing: 0.02857em;
+    line-height: 1.75;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 10px 18px;
+    border-radius: 8px;
+    transition: 0.2s ease-in-out;
+    margin-top: 24px;
+}
+
+@media (max-width: 1920px) {
+    #section-3>.container>div:nth-of-type(3)>img {
+        max-width: 1200px; /* Adjust as needed for your design */
+        width: 100%;
+        height: auto;
+    }
+}
 @media (max-width: 992px) {
+    #section-3>.container>div:nth-of-type(3)>img {
+        max-width: 700px; /* Adjust as needed for your design */
+        width: 100%;
+        height: auto;
+    }
+    #section-4>.container>.container-lg>div:nth-of-type(1)>button{
+        margin-top: 10px;
+    }
+}
+@media (max-width: 668px) {
     #section-3>.container>div:nth-of-type(3)>img {
         max-width: 600px; /* Adjust as needed for your design */
         width: 100%;
         height: auto;
     }
-}
-@media (max-width: 668px) {
-    #section-3>.container>div:nth-of-type(3)>img {
-        max-width: 400px; /* Adjust as needed for your design */
-        width: 100%;
-        height: auto;
+    #section-4>.container>.container-lg>div:nth-of-type(1)>button{
+        margin-top: 10px;
     }
 }
-@media (max-width: 400px) {
+@media (max-width: 500px) {
     #section-3>.container>div:nth-of-type(3)>img {
-        max-width: 200px; /* Adjust as needed for your design */
+        max-width: 375px; /* Adjust as needed for your design */
         width: 100%;
         height: auto;
+        overflow: scroll;
+    }
+    #section-4>.container>.container-lg{
+        display: flex;
+        flex-direction: column;
+        overflow:auto;
+    }
+    #section-4>.container>.container-lg>div:nth-of-type(2){
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        overflow:auto;
+    }
+    #section-4>.container>.container-lg>div:nth-of-type(1){
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+    }
+    #section-4>.container>.container-lg>div:nth-of-type(1)>button{
+        margin-top: 10px;
+    }
+    #section-4>.container>.container-lg>div:nth-of-type(1)>.pri{
+        margin-top: 10px;
     }
 }
+
+/* section-4 ensds */
 
 /* Header section start */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
