@@ -251,7 +251,7 @@ header {
     background-color: #ffffff;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     /* border: solid black 1px; */
-
+    z-index: 1000000;
 }
 
 .bg-body-tertiary {
@@ -402,6 +402,282 @@ header {
     margin-top: 10px;
 }
 /* Header section end */
+
+/* section-5a start */
+
+.cutyour{
+    max-width: 1296px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    font-family: "Roboto", sans-serif !important;
+}
+
+.cuth3{
+    margin: auto;
+    max-width: 450px;
+}
+
+.cuth3>h3{
+    font-family: "Roboto", sans-serif !important;
+    font-size: 3.2rem;
+    font-weight: 600;
+    text-align: center;
+    
+}
+
+.cutyour>p{
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+.zocso6{
+    max-width: 1070px;
+    margin: auto;
+}
+
+.zocso6>img{
+    width: 100%;
+}
+
+/* section-5 start */
+.section-5{
+    margin-top: 50px;
+    background-color: #FFFAEC;
+    padding-top: 70px;
+    overflow: hidden;
+    font-family: "Roboto", sans-serif !important;
+}
+.seeBox{
+    max-width: 1296px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.seeBox>h2{
+    font-size: 3.5rem;
+    font-weight: 700;
+    
+}
+
+@media (max-width: 768px) {
+    .seeBox>h2{
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .seeBox>h2{
+        font-size: 2.5rem;
+    }
+
+    .cuth3>h3{
+        font-size: 2.25rem;
+       
+    }
+
+    .cutyour>p{
+        font-size: 0.8rem;
+    }
+
+
+}
+
+
+
+/* marbox start */
+.marbox{
+    margin: auto;
+    width: 99vw;
+   overflow: hidden;
+    
+}
+
+
+.maranimation{
+    animation: marquee 25s linear infinite;
+
+}
+
+.maranimation:hover{
+    animation-play-state: paused;
+}
+
+/* markqueeBox1 start */
+.markqueeBox1{
+    max-width: fit-content;
+    display: flex;
+    gap: 20px;
+  
+    white-space: inherit;
+    margin-bottom: 20px;
+}
+
+@keyframes marquee {
+    0%{
+        transform: translateX(10%);
+    }
+    100%{
+        transform: translateX(-100vw);
+    }
+}
+
+
+.markqueeBox1>.child1{
+    padding: 20px;
+    flex-shrink: 0;
+    width: 300px;
+    height: 350px;
+    border-radius: 1.5rem;
+    border: 1px solid;
+}
+.markqueeBox1>.child2{
+    padding: 20px;
+    flex-shrink: 0;
+    width: 600px;
+    height:350px;
+    border-radius: 1.5rem;
+    border: 1px solid;
+    text-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.child1>p{
+    margin: 0px;
+    margin-bottom: 20px;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 140%;
+   
+}
+
+.child1>h4{
+    margin: 0px;
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 0.01em;
+    font-size: 2.25rem;
+   
+}
+
+.child2>p{
+        line-height: 150%;
+        letter-spacing: 0.01em;
+        font-size: 1.6rem;
+        font-weight: 500;
+        
+    }
+
+.child2>.picbox{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 10px;
+}
+.child2>.picbox>.pic{
+    height: 70px;
+    width: 70px;
+}
+.pic>img{
+    width: 100%;
+}
+.picbox>.pictitle>p{
+    margin: 0;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 140%;
+}
+
+.markqueeBox1>.a1,.a2{
+    background-color: #090D01;
+    color: rgb(173, 242, 27);
+}
+
+.markqueeBox1>.b1,.b2{
+    background-color: #1F0D00;
+    color: #FF7D1F;
+}
+
+.markqueeBox1>.c1,.c2{
+    background-color: #350810;
+    color: #E75571;
+}
+/* markqueeBox1 end */
+
+/* markqueeBox2 start */
+.markqueeBox2{
+    display: flex;
+    gap: 20px;
+    white-space: nowrap;
+    margin-bottom: 20px;
+    margin-left: 155px;
+    
+}
+
+.markqueeBox2>.child1{
+    padding: 20px;
+    flex-shrink: 0;
+    width: 300px;
+    height: 350px;
+    border-radius: 1.5rem;
+    border: 1px solid;
+}
+.markqueeBox2>.child2{
+    padding: 20px;
+    flex-shrink: 0;
+    width: 600px;
+    height:350px;
+    border-radius: 1.5rem;
+    border: 1px solid;
+    text-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.markqueeBox2>.d1,.d2{
+    background-color: #010F23;
+    color: #6CA4F9;
+}
+
+.markqueeBox2>.e1,.e2{
+    background-color: #052710;
+    color: #1BDD5D;
+}
+
+.markqueeBox2>.f1,.f2{
+    background-color: #190460;
+    color: #B9A6FB;
+}
+/* markqueeBox2 end */
+
+.readMore{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.readMoreBtn{
+    font-weight: 500;
+    font-size: 1rem;
+    color: white;
+    background-color: #000000;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    display: flex;
+    text-align: center;
+    gap: 10px;
+}
+
+/* section-5 end */
+
 
 /*section-6*/
 
