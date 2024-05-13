@@ -14,7 +14,9 @@ Celebrating a $100M Series D Funding Round
 Frontend-Web Application
 
 ## Deployed Link
-Frontend: https://deployed-site.whatever
+1. Nexus-B2B (Bootstrap) :- https://nexus-b2b.netlify.app/
+2. Viatours (Figma)      :- https://viatours-cwp.netlify.app/
+3. Github Link           :- https://github.com/Mayank1st/Beas-Boolean-009.git
 
 ## Directory Structure
 Beas-Boolean-009/
@@ -80,11 +82,6 @@ npm start
 
 ## Usage
 instructions and examples on how to use your project.
-
-#website Link
-1. Nexus-B2B (Bootstrap) :- https://nexus-b2b.netlify.app/
-2. Viatours (Figma)      :- https://viatours-cwp.netlify.app/
-3. Github Link           :- https://github.com/Mayank1st/Beas-Boolean-009.git
 
 1. Download or Clone the Project:
 
