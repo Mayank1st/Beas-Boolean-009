@@ -219,6 +219,157 @@ nav {
     margin-bottom: 20px;
     border: none;
 } */
+.hr1 {
+  height: 1px;
+  color: rgb(231, 230, 230);
+}
+
+.v-sec .vh2 {
+  margin-top: 60px;
+  width: 58.15px;
+  height: 45px;
+  font-family: Inter;
+  font-size: 29.18px;
+  font-weight: 700;
+  line-height: 45px;
+  text-align: left;
+  color: rgb(5, 7, 60);
+}
+.v-sec .vd1 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  width: 850px;
+  height: 166.38px;
+  border-radius: 12px;
+  padding-inline: 21px;
+  background-color: rgba(255, 255, 255, 0.002);
+  border: 1px solid rgb(231, 230, 230);
+  box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.05);
+  position: relative;
+}
+.v-sec .vd1 .vp1 {
+  width: 158.08px;
+  height: 21px;
+  font-family: Inter;
+  font-size: 15.63px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: center;
+  color: rgb(5, 7, 60);
+}
+.v-sec .vd1 .v-cir {
+  position: absolute;
+  top: 10px;
+  left: 820px;
+  width: 15px;
+  height: 15px;
+  padding: 7.5px 7.3px 7.5px 7.5px;
+  border-radius: 50%;
+  background-color: rgb(235, 102, 43);
+}
+.v-sec .vd1 .vdd2 {
+  padding-top: 16px;
+  font-family: Inter;
+  font-size: 14.53px;
+  font-weight: 400;
+  line-height: 28.13px;
+  text-align: left;
+  color: rgb(5, 7, 60);
+}
+.v-sec .vd2 {
+  margin-bottom: 20px;
+  position: relative;
+  width: 850px;
+  height: 62px;
+  padding: 16px 21px 16px 22px;
+  border-radius: 12px;
+  border: 1px solid rgb(231, 230, 230);
+  display: flex;
+  align-items: center;
+}
+.v-sec .vd2 .vdd1 {
+  width: 219.9px;
+  height: 21px;
+  font-family: Inter;
+  font-size: 15.63px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: center;
+  color: rgb(5, 7, 60);
+}
+.v-sec .vd2 .v-cir2 {
+  position: absolute;
+  top: 24px;
+  left: 820px;
+  width: 30px;
+  height: 30px;
+  padding: 7.5px 7.3px 7.5px 7.5px;
+  border-radius: 30px;
+  background-color: rgba(235, 101, 43, 0.094);
+}
+.v-sec .vd3 {
+  margin-bottom: 20px;
+  position: relative;
+  width: 850px;
+  height: 62px;
+  padding: 16px 21px 16px 22px;
+  border-radius: 12px;
+  border: 1px solid rgb(231, 230, 230);
+  display: flex;
+  align-items: center;
+}
+.v-sec .vd3 .vdd1 {
+  width: 274.43px;
+  height: 21px;
+  font-family: Inter;
+  font-size: 15.63px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: center;
+  color: rgb(5, 7, 60);
+}
+.v-sec .vd3 .v-cir2 {
+  position: absolute;
+  top: 24px;
+  left: 820px;
+  width: 30px;
+  height: 30px;
+  padding: 7.5px 7.3px 7.5px 7.5px;
+  border-radius: 30px;
+  background-color: rgba(235, 101, 43, 0.094);
+}
+.v-sec .vd4 {
+  margin-bottom: 60px;
+  position: relative;
+  width: 850px;
+  height: 62px;
+  padding: 16px 21px 16px 22px;
+  border-radius: 12px;
+  border: 1px solid rgb(231, 230, 230);
+  display: flex;
+  align-items: center;
+}
+.v-sec .vd4 .vdd1 {
+  width: 249.45px;
+  height: 21px;
+  font-family: Inter;
+  font-size: 15.63px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: center;
+  color: rgb(5, 7, 60);
+}
+.v-sec .vd4 .v-cir2 {
+  position: absolute;
+  top: 24px;
+  left: 820px;
+  width: 30px;
+  height: 30px;
+  padding: 7.5px 7.3px 7.5px 7.5px;
+  border-radius: 30px;
+  background-color: rgba(235, 101, 43, 0.094);
+}
+
 .section-7 {
   max-width: 1320px;
   margin: auto;
