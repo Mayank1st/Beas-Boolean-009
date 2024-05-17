@@ -32,7 +32,7 @@ Video-Link:- https://youtu.be/G297kYxMsoo?si=pSaPqntiuUaY4RQ7
 Attach a very short video walkthrough of the codebase [ 1 - 5 minutes ]
 Video-Link:- https://youtu.be/G297kYxMsoo?si=pSaPqntiuUaY4RQ7
 
-##ScreenShot
+## ScreenShot
 ![image](https://github.com/Mayank1st/reebok_github_collab/assets/128882549/bc588a58-4b0a-4eec-b564-067eebd34847)
 
 
