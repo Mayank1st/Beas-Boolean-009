@@ -14,7 +14,7 @@ Celebrating a $100M Series D Funding Round
 Frontend-Web Application
 
 ## Deployed Link
-1. Nexus-B2B (Bootstrap) :- https://nexus-b2b.netlify.app/
+1. Nexus-B2B (Bootstrap) :- https://nexusb2b.netlify.app/
 2. Viatours (Figma)      :- https://viatours-cwp.netlify.app/
 3. Github Link           :- https://github.com/Mayank1st/Beas-Boolean-009.git
 
